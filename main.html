@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
+	<form method="get">
 		<div>
 			<label for="name">Name*</label>
 		    <input type="text" id="name" required>
@@ -27,12 +27,12 @@
 		    <label for="Other">Other</label>
 		</div>
 		<div>
-			<label for="laptop">Laptop Brands</label>
-			<select id="laptop" name="Laptop Brands">
-		    <option value="Apple">Apple</option>
-		    <option value="Asus">Asus</option>
-		    <option value="HP">HP</option>
-			</select>
+			<input type="checkbox" id="apple" name="apple">
+			<label for="apple">Apple</label><br>
+			<input type="checkbox" id="asus" name="asus">
+			<label for="asus">Asus</label><br>
+			<input type="checkbox" id="hp" name="hp">
+			<label for="hp">HP</label><br>
 		</div>
 		<div>
 			<label for="age">Age*</label>
